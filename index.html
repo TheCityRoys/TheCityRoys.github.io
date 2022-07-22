@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <title>Test</title>
+</head>
+
+<body id="body" onkeydown="closeByKey(event)">
+    <div class="running__line">
+        <div class="header_ticker_wrapper">
+            <div class="ticker-wrapper__first-half">
+                <p>We ship inside the US only us</p>
+                <p><img src="./images/us.svg" width="20" height="20" alt="us"></p>
+                <p class="hide_mob">We ship inside the US only us</p>
+                <p class="hide_mob"><img src="./images/us.svg" width="20" height="20" alt="us"></p>
+                <p class="hide_mob">We ship inside the US only us</p>
+                <p class="hide_mob"><img src="./images/us.svg" width="20" height="20" alt="us"></p>
+                <p class="hide_mob">We ship inside the US only us</p>
+                <p class="hide_mob"><img src="./images/us.svg" width="20" height="20" alt="us"></p>
+            </div>
+            <div class="ticker-wrapper__second-half">
+                <p>We ship inside the US only us</p>
+                <p><img src="./images/us.svg" width="20" height="20" alt="us"></p>
+                <p class="hide_mob">We ship inside the US only us</p>
+                <p class="hide_mob"><img src="./images/us.svg" width="20" height="20" alt="us"></p>
+                <p class="hide_mob">We ship inside the US only us</p>
+                <p class="hide_mob"><img src="./images/us.svg" width="20" height="20" alt="us"></p>
+                <p class="hide_mob">We ship inside the US only us</p>
+                <p class="hide_mob"><img src="./images/us.svg" width="20" height="20" alt="us"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header__wrapper">
+
+            <button class="nav__button" id="callPopup">
+                <img src="./images/brg-menu.svg" alt="menu">
+            </button>
+
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="#about" class="nav__link">About</a> </li>
+                    <li class="nav__item"> <a href="#how" class="nav__link">How It Work</a></li>
+                    <li class="nav__item"> <a href="#blog" class="nav__link">Blog</a></li>
+                    <li class="nav__item"> <a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__buttons">
+                <a href="#" class="header__button">Get a Kit 📦</a>
+                <a href="#" class="header__button profile"> <img src="./images/profile.svg" alt="profile"></a>
+            </div>
+        </div>
+
+    </header>
+
+
+    <section class="intro">
+        <div class="intro__wrapper">
+            <div class="intro__first">
+                <div class="intro__text">
+                    Replace awkward lab visits with at-home <span class="blue">STI testing</span> and <span
+                        class="orange">treatment</span>
+                </div>
+                <div class="intro__button">
+                    <a href="#" class="header__button intro__btn">Get Started</a>
+                </div>
+            </div>
+
+            <div class="intro__second">
+                <img class="intro__img" src="./images/intro.png" alt="intro">
+            </div>
+        </div>
+    </section>
+
+    <section class="insurance">
+        <div class="insurance__wrapper">
+            <div class="insurance__item">
+                <img src="./images/ins1.png" alt="ins1">
+            </div>
+            <div class="insurance__item">
+                <img src="./images/ins2.png" alt="ins1">
+            </div>
+            <div class="insurance__item">
+                <img src="./images/ins3.png" alt="ins1">
+            </div>
+            <div class="insurance__item">
+                <img src="./images/ins4.png" alt="ins1">
+            </div>
+            <div class="insurance__item" id="about">
+                <a href="/" class="header__button ins__btn">Check insurance</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mission">
+        <div class="mission__wrapper">
+            <div class="mission__first">
+                <img src="./images/mission.png" class="mission__png" alt="mission">
+            </div>
+            <div class="mission__second">
+                <div class="mission__title">
+                    Our mission is simple: to make healthcare <span class="orange">accessible</span> , <span
+                        class="white">affordable</span> , <span class="blue">and easy to use</span> .
+                </div>
+                <div class="mission__text">STI rates are hitting record numbers, yet testing is lacking. We want to fix
+                    this by providing a more discreet and
+                    convenient way of maintaining sexual health for you. The easier it is to access and learn about your
+                    health, the easier
+                    it is for you to take meaningful action, whenever you need it.</div>
+                <div class="mission__button">
+                    <a href="/" class="header__button mission__btn">Get started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="steps" id="how">
+        <div class="step__section">
+            <div class="step__wrapper">
+                <div class="step__header">
+                    <img src="./images/13.png" alt="13">
+                </div>
+                <div class="step__col">
+                    <div class="step__text col__text">
+                        <h3 class="step__title">Speak <br> <span class="white">to a doctor</span></h3>
+                        <p>
+                            Book a visit today and get in touch with a doctor through video. Our team will confirm
+                            you’re in-network to make things
+                            easier.
+                        </p>
+                    </div>
+                </div>
+                <div class="step__col" id="step1">
+                    <img src="./images/paralax1.png" alt="paralax">
+                </div>
+            </div>
+        </div>
+        <div class="step__section">
+            <div class="step__wrapper second__step">
+                <div class="step__header">
+                    <img src="./images/22.png" alt="13">
+                </div>
+                <div class="step__col" id="step2">
+                    <img src="./images/paralax2.png" alt="paralax">
+                </div>
+                <div class="step__col col__text second__text">
+                    <div class="step__text">
+                        <h3 class="step__title step__title__second">Your kit <span class="white">is mailed</span></h3>
+                        <p>
+                            After the appointment we'll mail you an STI kit to your home with easy steps to follow. If
+                            there are any additional
+                            questions needed, our medical team is here.
+
+                        </p>
+                        <div class="step__button">
+                            <a href="/" class="header__button ins__btn">Get a kit</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="step__section">
+            <div class="step__wrapper">
+                <div class="step__header">
+                    <img src="./images/23.png" alt="13">
+                </div>
+                <div class="step__col" id="step3">
+                    <div class="step__text col__text">
+                        <h3 class="step__title">Get <span class="white">results</span></h3>
+                        <p>
+                            Order a test online, collect your sample at home, and then return your sample to our lab.
+                            We’ll review it and send you
+                            results within 2-4 days. If positive, we’ll prescribe you a treatment plan to pickup at the
+                            nearest pharmacy.
+
+                        </p>
+                        <div class="step__button">
+                            <a href="/" class="header__button intro__btn">Get started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="step__col">
+                    <img src="./images/paralax3.png" alt="paralax">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="table" id="blog">
+        <div class="table__wrapper">
+            <div class="table__item first">
+                <div class="table__item__title">PrEP Check</div>
+                <div class="table__item__text">HIV 1&2, Hep B & C, Creatinine (kidney function), Syphilis, <br>
+                    Chlamydia,
+                    Gonorrhoea <br>
+                    Required quarterly with medication
+                </div>
+                <div class="table__image" id="image__first">
+                    <img src="./images/urine.png" id="urine_f" alt="urine">
+                    <img src="./images/blood.png" id="blood_f" alt="blood">
+                    <img src="./images/swab.png" id="swab_f" alt="swab">
+                    <img src="./images/table1.png" alt="table">
+                </div>
+            </div>
+            <div class="table__item second">
+                <div class="table__item__title">Full Panel Kit</div>
+                <div class="table__item__text">Hep B & C, Trich, Chlamydia, Gonorrhea, HIV, Syphillis, <br>
+                    Gonadotropin, HSVII, HcG, and HPV
+                </div>
+                <div class="table__image" id="image__second">
+                    <img src="./images/urine.png" id="urine_s" alt="urine">
+                    <img src="./images/blood.png" id="blood_s" alt="blood">
+                    <img src="./images/swab.png" id="swab_s" alt="swab">
+                    <img src="./images/table2.png" alt="table">
+                </div>
+            </div>
+            <div class="table__item third">
+                <div class="table__item__title">Common Two</div>
+                <div class="table__item__text">Chlamydia & Gonorrhoea
+                </div>
+                <div class="table__image" id="image__third">
+                    <img src="./images/blood.png" id="blood_t" alt="blood">
+                    <img src="./images/table1.png" alt="table">
+                </div>
+            </div>
+            <div class="table__item fourth">
+                <div class="table__item__title">HIV & others</div>
+                <div class="table__item__text">HIV 1&2, Hep B, & Liver function
+                </div>
+                <div class="table__image" id="image__fourth">
+                    <img src="./images/urine.png" id="urine_fo" alt="urine">
+                    <img src="./images/swab.png" id="swab_fo" alt="swab">
+                    <img src="./images/table2.png" alt="table">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="join">
+        <div class="join__wrapper">
+            <img src="./images/heart.png" class="join__heart" alt="heart">
+            <img src="./images/massege.png" class="join__message" alt="message">
+            <img src="./images/like.png" class="join__like" alt="like">
+            <h2 class="join__title">
+                Join the Waitlist <br> <span>Your partner will appreciate you.</span>
+            </h2>
+            <div class="join__label">Sign up with your email address to receive news and updates.</div>
+            <div class="join__form">
+                <input type="text" class="join__input">
+                <button class="join__submit" type="submit">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="media" id="contact">
+        <div class="media__wrapper">
+            <div class="media__col">
+                <div class="media__banana">
+                    <img src="./images/Banana.png" alt="banana">
+                </div>
+                <div class="media__spotify">
+                    <img src="./images/spotify.png" alt="spotify">
+                </div>
+                <h2 class="media__safe">Better Safe <br> than Horny</h2>
+                <div class="media__subtitle">With Carly and Josh</div>
+            </div>
+
+            <div class="media__col media2">
+                <div class="media__tt">
+                    <img src="./images/tt.png" alt="tiktok">
+                </div>
+                <h2 class="media__watch">Watch us on Tiktok</h2>
+                <div class="media__phone">
+                    <img src="./images/phone.png" alt="phone">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <nav class="footer__navigation">
+                    <ul class="footer__nav">
+                        <li class="footer__nav__item"> <a href="#about" class="footer__link">About</a> </li>
+                        <li class="footer__nav__item"> <a href="#how" class="footer__link">How it Works</a></li>
+                        <li class="footer__nav__item"> <a href="#blog" class="footer__link">Blog</a></li>
+                        <li class="footer__nav__item"> <a href="#contact" class="footer__link">Contacts</a></li>
+                    </ul>
+                    <ul class="footer__nav">
+                        <li class="footer__nav__item"> <a href="/" class="footer__link">Privacy Policy</a> </li>
+                        <li class="footer__nav__item"> <a href="/" class="footer__link">Terms and Conditions</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer__button">
+                    <div class="footer__discover">Discover our Kits</div>
+                    <button class="header__button footer__btn">Get a Kit 📦</button>
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+                <div class="footer__bottom__links">
+                    <a href="/" class="bottom__link">Podcast</a>
+                    <span>/</span>
+                    <a href="/" class="bottom__link">Tiktok</a>
+                    <span>/</span>
+                    <a href="/" class="bottom__link">Instagram</a>
+                </div>
+                <div class="footer__copy">
+                    © 2021 Copyright, All rights reserved
+                </div>
+                <div class="footer__form">
+                    <div class="join__form">
+                        <input type="text" class="join__input">
+                        <button class="join__submit" type="submit">Subscribe</button>
+                    </div>
+                </div>
+                <div class="footer__mobile">
+                    <div class="footer__mobile__links">
+                        <div class="mb__links">
+                            <a href="/" class="footer__link mb">Privacy Policy</a>
+                            <a href="/" class="footer__link mb">Terms and Conditions</a>
+                        </div>
+                        <div class="mobile__copy">
+                            © 2021 Copyright Juna, All rights reserved
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popup" id="nav__popup">
+        <div class="popup__wrapper" id="popup__wrapper">
+            <button class="popup__close" id="closePopup"><img src="./images/Close.svg" alt="close"></button>
+            <ul class="popup__nav">
+                <li class="popup__item"> <a href="#about" class="popup__link">About</a> </li>
+                <li class="popup__item"> <a href="#how" class="popup__link">How it works</a></li>
+                <li class="popup__item"><a href="#blog" class="popup__link">Blog</a></li>
+                <li class="popup__item"><a href="#" class="header__button profile popup__btn"> <img
+                            src="./images/profile.svg" alt="profile"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="App/app.js"></script>
+</body>
+
+</html>
